@@ -1,11 +1,10 @@
-const APP_PREFIX = 'FoodEvent-';     
+const APP_PREFIX = 'Budget';     
 const VERSION = 'version_01';
 const CACHE_NAME = APP_PREFIX + VERSION;
 const FILES_TO_CACHE = [
   "/", 
   "/index.html", 
-  "/index.js", 
-  "/favicon.ico", 
+  "/index.js",  
   "/styles.css", 
   "/icons/icon-144x144.png",
   "/icons/icon-192x192.png", 

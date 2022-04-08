@@ -19,17 +19,17 @@ request.onerror = function (record) {
 };
 
 function saveRecord(record) {
-  const transaction = db.transaction(["budet"], "readwrite");
+  const transaction = db.transaction(["budget"], "readwrite");
 
-  const budgetStore = transaction.objectStore("budet");
+  const budgetStore = transaction.objectStore("budget");
 
   budgetStore.add(record);
 }
 
 function uploadBudget() {
-  const transaction = db.transaction(["budet"], "readwrite");
+  const transaction = db.transaction(["budget"], "readwrite");
 
-  const budgetStore = transaction.objectStore("budet");
+  const budgetStore = transaction.objectStore("budget");
 
   const getAll = budgetStore.getAll();
 
@@ -49,8 +49,8 @@ function uploadBudget() {
             throw new Error(serverResponse);
           }
 
-          const transaction = db.transaction(["budet"], "readwrite");
-          const budgetStore = transaction.objectStore("budet");
+          const transaction = db.transaction(["budget"], "readwrite");
+          const budgetStore = transaction.objectStore("budget");
 
           budgetStore.clear();
         })
