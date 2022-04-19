@@ -10,7 +10,8 @@
 </p>
 
 ## Description
-🔍 An application that allows you to track your budget while traveling on or offline
+🔍 An application that allows you to track your budget while traveling anywhere! Check it out:
+https://budgettracker-mf.herokuapp.com/
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
@@ -20,7 +21,7 @@
 - [Tests](#tests)
 - [Questions](#questions)
 ## Installation
-💾 Install mongoose, Mongodb and express. "npm i express, npm i mongoose
+💾 Install mongoose, Mongodb and express. "npm i express, npm i mongoose"
 ## Usage
 💻 Showing offline Capabilities of a PWA 
 ## License
