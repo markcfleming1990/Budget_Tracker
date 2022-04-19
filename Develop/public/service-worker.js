@@ -1,14 +1,12 @@
-const APP_PREFIX = 'Budget';     
-const VERSION = 'version_01';
+const APP_PREFIX = "Budget-";     
+const VERSION = "version_01";
 const CACHE_NAME = APP_PREFIX + VERSION;
 const FILES_TO_CACHE = [
-  "/", 
-  "/index.html", 
-  "/index.js",  
-  "/styles.css", 
-  "/icons/icon-144x144.png",
-  "/icons/icon-192x192.png", 
-  "/icons/icon-512x512.png"
+  "./manifest.json",
+  "./index.html",
+  "./css/style.css",
+  "./js/idb.js",
+  "./js/index.js"
 ];
 
 // Respond with cached resources
